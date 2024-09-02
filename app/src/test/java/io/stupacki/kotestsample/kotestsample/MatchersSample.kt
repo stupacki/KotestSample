@@ -27,6 +27,7 @@ import io.kotest.matchers.string.shouldHaveLength
 import io.kotest.matchers.string.shouldNotContain
 import io.kotest.matchers.string.shouldStartWith
 
+// Core Matchers - More are available here https://kotest.io/docs/assertions/core-matchers.html
 internal class MatchersSample : StringSpec({
 
     "should demonstrate various Kotest matchers" {
