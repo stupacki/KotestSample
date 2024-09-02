@@ -1,0 +1,12 @@
+AN-123
+
+Description
+-----------
+
+As a user I want to be able to submit my email address via the app. The app should show a success message to the user. Below the success message a retry button should be shown to start the flow again.
+
+ACs
+-----------
+- [ ] User can submit the email address
+- [ ] User gets a success message
+- [ ] User can retry the flow

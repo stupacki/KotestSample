@@ -1,0 +1,12 @@
+AN-123
+
+Description
+-----------
+
+As a user I want to be able to enter my email address via the app. The email should be validated on the device to ensure it is a valid email address, in a basic way.
+
+ACs
+-----------
+- [ ] User can enter an email address
+- [ ] Email address is validated on the device
+- [ ] If the email address is not valid, the user gets an debug message (First iteration)
