@@ -1,5 +1,6 @@
 package io.stupacki.kotestsample.kotestsample
 
+import io.kotest.assertions.throwables.shouldThrow
 import io.kotest.core.spec.style.StringSpec
 import io.kotest.matchers.collections.shouldContain
 import io.kotest.matchers.collections.shouldContainExactly
@@ -71,4 +72,16 @@ internal class MatchersSample : StringSpec({
         (-10L).shouldBeNegative()
         0L.shouldBeZero()
     }
+
+    "should throw an IllegalArgumentException" {
+        // When & Then
+        shouldThrow<IllegalArgumentException> {
+            throwException()
+        }
+    }
 })
+
+// Sample function to be tested
+fun throwException() {
+    throw IllegalArgumentException("This is an illegal argument exception")
+}
