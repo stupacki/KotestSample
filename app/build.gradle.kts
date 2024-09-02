@@ -74,6 +74,7 @@ dependencies {
     testImplementation(libs.junit)
     testImplementation(libs.kotest.runner.junit5)
     testImplementation(libs.kotest.assertions.core)
+    testImplementation(libs.mockk)
 
     // Debug Implementation
     debugImplementation(libs.androidx.ui.tooling)
